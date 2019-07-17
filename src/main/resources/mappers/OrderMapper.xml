@@ -133,6 +133,7 @@
       </if>
       <if test="updateTime != null">
        now()
+      </if>
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.mmall.pojo.Order">
